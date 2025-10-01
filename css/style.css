@@ -1,0 +1,18 @@
+body{
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    display: flex; /*siempre enfila*/
+    gap:10px;
+    margin-top: 20px;
+}
+.box{
+    flex: 1;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 6px;
+}
